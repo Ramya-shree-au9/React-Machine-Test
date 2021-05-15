@@ -51,15 +51,15 @@ export const TalentSignup = () => {
              setEerr('')
              setTerr('')
              setPerr('')
-            axios.post('https://apidev.fanconvo.com/api/v3/sign-up/fan',{
-                first_name:first_name,
-                last_name:last_name,
-                username:username,
-                email:email,
-               password:password,
-               timezone:timezone,
-               captcha: true
-            })
+            // axios.post('https://apidev.fanconvo.com/api/v3/sign-up/fan',{
+            //     first_name:first_name,
+            //     last_name:last_name,
+            //     username:username,
+            //     email:email,
+            //    password:password,
+            //    timezone:timezone,
+            //    captcha: true
+            // })
         }
         else if(data === 'talent'){
             setFerr('')
@@ -68,15 +68,15 @@ export const TalentSignup = () => {
             setEerr('')
             setTerr('')
             setPerr('')
-            axios.post('https://apidev.fanconvo.com/api/v3/sign-up/talent',{
-                first_name:first_name,
-                last_name:last_name,
-                username:username,
-                email:email,
-               password:password,
-               timezone:timezone,
-               captcha: true
-            })
+            // axios.post('https://apidev.fanconvo.com/api/v3/sign-up/talent',{
+            //     first_name:first_name,
+            //     last_name:last_name,
+            //     username:username,
+            //     email:email,
+            //    password:password,
+            //    timezone:timezone,
+            //    captcha: true
+            // })
         }
 
     }
