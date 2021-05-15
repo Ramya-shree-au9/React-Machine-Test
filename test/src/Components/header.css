@@ -1,0 +1,38 @@
+.logo{
+    width: 20%;
+}
+
+.header{
+    width: 50%;
+    margin: auto;
+
+}
+.searchbox{
+    border: 2px solid green;
+    padding: 1%;
+    border-radius:25px;
+    margin-left: 5%;
+
+}
+
+.searchbox input{
+    background-color: black;
+    border: none;
+    width: 50%;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 608px) {
+    .header{
+        width: 80%;
+    }
+    .searchbox input{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .searchbox input{
+        width: 30%;
+    }
+}
